@@ -1,0 +1,15 @@
+<testsuites>
+  <testsuite name="UnitTest.dll" tests="1" skipped="0" failures="0" errors="0" time="0.0012761" timestamp="2022-07-06T17:37:44" hostname="DARIO" id="0" package="UnitTest.dll">
+    <properties />
+    <testcase classname="UnitTest.UnitTest1" name="Test1" time="0.0012761" />
+    <system-out>
+Test Framework Informational Messages:
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.5)
+[xUnit.net 00:00:00.24]   Discovering: UnitTest
+[xUnit.net 00:00:00.26]   Discovered:  UnitTest
+[xUnit.net 00:00:00.26]   Starting:    UnitTest
+[xUnit.net 00:00:00.30]   Finished:    UnitTest
+</system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>
