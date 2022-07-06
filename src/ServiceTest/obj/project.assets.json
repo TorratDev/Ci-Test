@@ -37,20 +37,6 @@
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {}
         }
-      },
-      "ServiceTest/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.5.22301.12",
-          "Newtonsoft.Json": "13.0.2-beta1"
-        },
-        "compile": {
-          "bin/placeholder/ServiceTest.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ServiceTest.dll": {}
-        }
       }
     }
   },
@@ -142,16 +128,12 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "ServiceTest/1.0.0": {
-      "type": "project",
-      "path": "../ServiceTest/ServiceTest.csproj",
-      "msbuildProject": "../ServiceTest/ServiceTest.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ServiceTest >= 1.0.0"
+      "Microsoft.Extensions.DependencyInjection >= 7.0.0-preview.5.22301.12",
+      "Newtonsoft.Json >= 13.0.2-beta1"
     ]
   },
   "packageFolders": {
@@ -160,11 +142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\Ci-Test\\Ci-Test.csproj",
-      "projectName": "Ci-Test",
-      "projectPath": "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\Ci-Test\\Ci-Test.csproj",
+      "projectUniqueName": "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\ServiceTest\\ServiceTest.csproj",
+      "projectName": "ServiceTest",
+      "projectPath": "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\ServiceTest\\ServiceTest.csproj",
       "packagesPath": "C:\\Users\\Troll\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\Ci-Test\\obj\\",
+      "outputPath": "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\ServiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Troll\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -180,11 +162,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\ServiceTest\\ServiceTest.csproj": {
-              "projectPath": "C:\\Users\\Troll\\OneDrive\\Documentos\\GitHub\\Ci-Test\\src\\ServiceTest\\ServiceTest.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -196,6 +174,16 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.0.0-preview.5.22301.12, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2-beta1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
